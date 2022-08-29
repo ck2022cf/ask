@@ -1,0 +1,5 @@
+*.html diff=sjis
+$ git config diff.sjis.textconv "iconv -f sjis"
+
+[diff "sjis"]
+    textconv = iconv -f sjis
