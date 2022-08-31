@@ -71,3 +71,7 @@ nav ul li a {
 nav li:hover{
     background-color: #FFAF87; /* 背景色を指定します */
 }
+
+.mgl2-10{
+   margin-left : 280px;
+}
