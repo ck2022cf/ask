@@ -79,3 +79,8 @@ nav li:hover{
 span.ijyou1 {
     font-family: "HGP行書体";
 }
+
+body {
+  background-image: url("jp.jpg");
+  background-size: cover;
+}
