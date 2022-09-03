@@ -1,4 +1,86 @@
+* {
+  margin:0; padding:0;
+}
+header {
+  height: 100px;
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 auto;
+  background-color: #7fffbf;
+  text-align: center;
+}
+header .headline{
+   line-height: 100px;
+   float: left;
+   font-size: 40px;
+   margin-left: 100px;
+}
+.nav-list {
+    line-height: 100px;
+    float: center;
+    margin-left: 0px;
+    list-style: none;
+}
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 0px;
+}
+footer {
+  width: 100%;
+  height: 40px; 
+  text-align: center;
+  padding: 50px 0;
+  background-color: #7fffbf;
+}
+.footer-text {
+  color: #fff;
+}
+span {
+    color: red;
+}
+
+body {
+  background-color: #c6ffff;
+}
+
+.mgl-10{
+   margin-left : 280px;
+}
+
+nav {
+    text-align: center;
+}
+ 
+nav ul {
+    margin: 0 ;
+    padding: 0 ;
+}
+ 
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    width: 10%; /* ここで項目の幅を指定します */
+}
+ 
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+ 
+nav li:hover{
+    background-color: #FFAF87; /* 背景色を指定します */
+}
+
+.mgll-10{
+   margin-left : 350px;
+}
+
+span.ijyou1 {
+    font-family: "HGP行書体";
+}
+
 body {
   background-image: url("jp.jpg");
-  background-repeat: no-repeat;
+  background-size: cover;
 }
